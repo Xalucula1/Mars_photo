@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    background-color: #f4f4f4;
+    /* background-image: url('https://avatars.mds.yandex.net/i?id=c3e04d54a4972bbc7fd8226e75b00b90-4956126-images-thumbs&n=13') */
+    /* https://avatars.mds.yandex.net/get-pdb/1766896/de6cfc88-a07c-448c-bcc8-41aadf920588/s1200 */
+}
+
+.go-body {
+    background-image: url('https://avatars.mds.yandex.net/get-pdb/1766896/de6cfc88-a07c-448c-bcc8-41aadf920588/s1200');
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    margin: 0;
+}
+
+.img-go {
+    width: 100%;
+    height: 100%;
+}
+
+.main-body {
+    background-image: url('https://api.nasa.gov/assets/img/hero.png');
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    margin: 0
+}
+
+.main-section {
+    color: white;
+    width: 22.5%;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-left: 39%;
+    margin-top: 17%;
+    height: 30%;
+
+}
+
+.main-title {
+    padding-top: 13%;
+    text-align: center;
+}
+
+
+.btn {
+    margin-top:20px;
+    margin-left: 35%;
+    position: relative;
+    display: inline-block;
+    font-family: Arial,Helvetica,FreeSans,"Liberation Sans","Nimbus Sans L",sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: rgb(245,245,245);
+    text-shadow: 0 -1px rgba(0,0,0,.1);
+    text-decoration: none;
+    user-select: none;
+    padding: .3em 1em;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    background: #670c9c linear-gradient(#a682d1, #620c9c);
+    box-shadow: inset #9426de 0 -1px 1px, inset 0 1px 1px #ca98ff, #8b3caa 0 0 0 1px, rgba(226, 73, 73, 0.3) 0 2px 5px;
+    -webkit-animation: pulsate 1.2s linear infinite;
+    animation: pulsate 1.2s linear infinite;
+  }
+  .btn:hover {
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+    cursor: pointer;
+  }
+  .btn:active {
+    top: 1px;
+    color: #fff;
+    text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;
+    box-shadow: 0 -1px 3px rgba(0,0,0,.3), 0 1px 1px #fff, inset 0 1px 2px rgba(0,0,0,.8), inset 0 -1px 0 rgba(0,0,0,.05);
+  }
+  @-webkit-keyframes pulsate {
+    50% {color: #fff; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;}
+  }
+  @keyframes pulsate {
+    50% {color: #fff; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;}
+  }
+
+.section-photo {
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+    background-color: white;
+    border-radius:20px;
+    min-height: 500px;
+ }
+
+ .section-photo-tytle {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 30px;
+    font-weight: bold;
+ }
+
+ .form {
+    width: 70%;
+    margin-left: 12%;
+    padding-bottom: 50px;
+ }
+
+ .form-select {
+    margin-left: 34.5%;
+    width: 40%;
+    height: 35px
+    
+ }
+
+ .form-control {
+    margin-left: 34.5%;
+    width: 39%;
+    height: 30px
+    
+ }
+
+ .form-text {
+    margin-left: 34.5%;
+    padding-bottom: 25px;
+ }
+
+ .btn-1 {
+    margin-top:20px;
+    margin-left: 35%;
+    font-size: 1.5em;
+    font-weight: 700;
+    padding: .3em 1em;
+ }
+
+ .photo-conteyner {
+    margin-bottom: 30px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    flex-wrap: wrap;
+ }
+
+ .box {
+    position: relative;
+    width: 350px;
+    height: 250px;
+    background-color: rgba(213, 213, 213, 0.177);
+    padding-bottom: 100px;
+    /* padding-left: 5px; */
+    margin-bottom: 150px;
+    border-radius: 15px;
+  }
+
+.box-img {
+    height: 200px;
+    width: 350px;
+    /* border-radius: 15px 15px 0 0; */
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
